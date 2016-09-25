@@ -1,0 +1,117 @@
+section{
+	margin: 0 0 3em 0;
+}
+
+h1{
+	font-size: 5em;
+}
+
+h2{
+	font-size: 3em;
+	margin-bottom: 0.5em;
+}
+
+p{
+	font-size: 1.7em;
+	margin-bottom: 1em;
+	line-height: 155%;
+}
+
+.container{
+	max-width: 960px;
+	padding: 0 1.25em;
+}
+
+section#intro{
+	height: 736px;
+	background-image: url(../images/1.jpg);
+	background-size: 100% 100%;
+	background-size: cover;
+	background-position-x:50%;
+	margin: 0 0 1.8em 0;
+}
+
+section#intro h1{
+	margin:0.4em 0 0.5em 0;
+	color: white;
+}
+
+section#intro p{
+	font-size: 1.8em;
+	color: white;
+}
+
+section#intro .container{
+	padding-top: 8em;
+}
+
+#webcon{
+	margin-top: 2.5em;
+}
+
+.rowskill{
+	margin-bottom: 1em;
+}
+
+#newslogo{
+	padding: 0.7em 0;
+}
+
+#newslogo .col-xs-3{
+	padding-bottom: 15px;
+}
+
+#newslogo .col-md-2{
+	padding-bottom: 15px;
+}
+
+#newslogo img{
+	width: 100%;
+}
+
+#artist .col-xs-6{
+	padding-bottom: 1.5em;
+}
+
+#artist img{
+	width: 100%;
+}
+
+#sportpho img{
+	width: 100%;
+}
+
+.img-responsive{
+	max-width: 55%;
+	margin: 1em 0;
+}
+
+.contactcon{
+	margin-top: 0.8em;
+}
+
+.contactcon a{
+	text-decoration: none;	
+}
+
+section#footer{
+	height: 75px;	
+	margin: 0;
+	text-align: center;
+}
+
+@font-face {font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:64px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
